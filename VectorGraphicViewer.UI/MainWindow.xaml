@@ -1,0 +1,29 @@
+﻿<Window x:Name="mainWindow" x:Class="VectorGraphicViewer.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="clr-namespace:VectorGraphicViewer.UI.Controls"
+        mc:Ignorable="d"
+        Title="Vector Viewer" Height="480" Width="720" MinWidth="720" MinHeight="480" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Button x:Name="fileDialogButton" Content="Select File" HorizontalAlignment="Stretch" Grid.Column="0" Grid.Row="1" VerticalAlignment="Stretch" Click="HandleOpenFileDialogButtonClick" Margin="5,5,5,5" />
+        <TextBox x:Name="fileNameTextBox" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Margin="5,0,5,0" />
+        <Border x:Name="canvasContainer" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" >
+            <Viewbox x:Name="viewBox" Stretch="Uniform" ClipToBounds="True">
+                <controls:CustomCanvas x:Name="canvas" Width="821" Height="480" Background="LightGray" >
+                </controls:CustomCanvas>
+            </Viewbox>
+        </Border>
+    </Grid>
+</Window>

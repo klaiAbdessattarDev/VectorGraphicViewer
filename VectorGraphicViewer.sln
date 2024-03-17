@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectorGraphicViewer.Core", "VectorGraphicViewer.Core\VectorGraphicViewer.Core.csproj", "{3DE1309A-B325-4EC1-9B64-B61F9072B29A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectorGraphicViewer.UI", "VectorGraphicViewer.UI\VectorGraphicViewer.UI.csproj", "{63B39A1E-1CFA-485C-9908-8FEE41E1327B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE1309A-B325-4EC1-9B64-B61F9072B29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE1309A-B325-4EC1-9B64-B61F9072B29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE1309A-B325-4EC1-9B64-B61F9072B29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE1309A-B325-4EC1-9B64-B61F9072B29A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B39A1E-1CFA-485C-9908-8FEE41E1327B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B39A1E-1CFA-485C-9908-8FEE41E1327B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B39A1E-1CFA-485C-9908-8FEE41E1327B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B39A1E-1CFA-485C-9908-8FEE41E1327B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F590906D-401B-4640-AE97-1168DB574ACA}
+	EndGlobalSection
+EndGlobal
